@@ -1,0 +1,45 @@
+[0m23:32:33.871214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000164394FF910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001643AF10D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001643A9210D0>]}
+
+
+============================== 23:32:33.880269 | 5ffd0283-5c19-4cff-aea2-fb7f0ced2c24 ==============================
+[0m23:32:33.880269 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:32:33.881270 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'profiles_dir': 'C:\\Users\\gabri\\.dbt', 'static_parser': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt init dbt_project', 'introspect': 'True', 'printer_width': '80', 'quiet': 'False', 'target_path': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'log_path': 'logs', 'partial_parse': 'True', 'warn_error': 'None', 'no_print': 'None', 'version_check': 'True', 'empty': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m23:32:33.928987 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\gabri\.dbt
+[0m23:32:33.932986 [debug] [MainThread]: Starter project path: E:\gabri\Documents\Projetos\projeto-analise-custos-ind\.venv\lib\site-packages\dbt\include\starter_project
+[0m23:32:34.010423 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:32:34.010423 [info ] [MainThread]: Setting up your profile.
+[0m23:33:30.627706 [info ] [MainThread]: Profile dbt_project written to C:\Users\gabri\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:33:30.629704 [debug] [MainThread]: Command `dbt init` succeeded at 23:33:30.629704 after 56.86 seconds
+[0m23:33:30.630718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000164394FF910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001643AF10D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001643A9210D0>]}
+[0m23:33:30.630718 [debug] [MainThread]: Flushing usage events
+[0m23:33:31.226584 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:04:49.517019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001815603F8E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018157401AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001815811A550>]}
+
+
+============================== 17:04:49.538060 | 1c8b7b39-88c0-491f-82f7-f424d9dfb3b9 ==============================
+[0m17:04:49.538060 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:04:49.540082 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'profiles_dir': 'C:\\Users\\gabri\\.dbt', 'static_parser': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt run', 'introspect': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'target_path': 'None', 'debug': 'False', 'log_path': 'logs', 'partial_parse': 'True', 'warn_error': 'None', 'no_print': 'None', 'version_check': 'True', 'empty': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m17:04:49.592193 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path E:\gabri\Documents\Projetos\projeto-analise-custos-ind\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:04:49.593194 [debug] [MainThread]: Command `dbt run` failed at 17:04:49.593194 after 0.18 seconds
+[0m17:04:49.594245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001815603F8E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001815811A550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001815811AA90>]}
+[0m17:04:49.595245 [debug] [MainThread]: Flushing usage events
+[0m17:04:50.219853 [debug] [MainThread]: An error was encountered while trying to flush usage events
